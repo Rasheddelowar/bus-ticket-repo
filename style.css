@@ -1,0 +1,151 @@
+
+#navbar{
+    width: 1550px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{font-size: large;
+font-weight: bold;}
+
+#navbar ul{display: flex;
+justify-content: space-between;}
+
+#navbar ul li {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+#bannar{
+    width: 1550px;
+    min-height: 600px;
+  background-image: url(images/banner.png);
+  background-repeat: no-repeat;
+  margin-left: 200px;
+
+}
+
+#bannar-heading{
+    margin-top:50px;
+    padding-top: 30px;
+    color: azure;
+   margin-left: 400px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#bannar-heading1{
+    margin-top: 20px;
+ margin-left: 250px;
+  color: azure;
+}
+#green{color: #7fe915;
+padding-top: 20px;}
+#buy{
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    margin-left: 480px;
+    background-color: #7fe915;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#offer{
+    width: 1400px;
+    height: 300px;
+    border:1 px solid #7fe915;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 300px;
+}
+#icon{display: flex;
+    width: 70px;
+    height: 40px;
+    justify-content: space-between;
+}
+#card{
+    
+    width: 1000px;
+    /* height: 500px; */
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-around;
+}
+
+#best-offer{
+    margin-left: 600px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#card1{
+    background-color: darkgoldenrod;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+justify-content: space-between;}
+
+#card2{
+    background-color: rgb(86, 181, 31);
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+justify-content: space-between;}
+#h{font-size: large;
+font-weight: bolder;}
+#see{ border: #7fe915 2px solid;
+border-radius: 10px;
+width: 120px;
+margin-top: 40px;
+height: 40px;
+font-size: large;
+margin-left: 600px;}
+#Paribahan{
+   margin-left: 450px;
+   margin-left: 400px;
+}
+#green{width: 250px;
+    height: 100px;
+     display: flex;
+justify-content: space-between;}
+#coach{display: flex;
+justify-content: space-between;
+width: 500px;
+margin-right: 300px;}
+
+#seat{display: flex;
+    margin-top: 50px;
+    padding-left: 20px;
+    margin-right: 200px;
+    margin-left: 100px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: bisque;
+    justify-content: space-between;}
+
+
+
+#seat-plan ul{display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    height: 30px;
+    width: 500px;
+    /* background-color: brown; */
+    }
+    #seat-plan ul li a{
+        width: 50px;
+        border-radius: 50%;
+        height: 50px;
+        background-color: rgb(60, 234, 7);
+    }
+    
+    
