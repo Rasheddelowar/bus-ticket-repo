@@ -1,8 +1,8 @@
 
 #navbar{
-    width: 1550px;
+    width: 1200px;
     height: 50px;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -71,7 +71,7 @@ padding-top: 20px;}
 }
 #card{
     
-    width: 1000px;
+    width: 1200px;
     /* height: 500px; */
     display: flex;
     margin-left: 200px;
@@ -85,7 +85,7 @@ padding-top: 20px;}
 }
 #card1{
     background-color: darkgoldenrod;
-    width: 400px;
+    width: 500px;
     height: 200px;
     margin-top: 50px;
     padding: 40px;
@@ -94,7 +94,7 @@ justify-content: space-between;}
 
 #card2{
     background-color: rgb(86, 181, 31);
-    width: 400px;
+    width: 500px;
     height: 200px;
     margin-top: 50px;
     padding: 40px;
@@ -123,24 +123,31 @@ width: 500px;
 margin-right: 300px;}
 
 #seat{display: flex;
+    width: 1200px;
     margin-top: 50px;
     padding-left: 20px;
     margin-right: 200px;
-    margin-left: 100px;
+    margin-left: 200px;
     padding-right: 20px;
     padding-top: 20px;
-    background-color: bisque;
+    background-color: rgb(234, 179, 112);
     justify-content: space-between;}
 
 
 
 #seat-plan ul{display: flex;
     justify-content: space-between;
-    margin-left: 150px;
-    height: 30px;
-    width: 500px;
+    margin-left: 100px;
+    height: 60px;
+    width: 300px;
     /* background-color: brown; */
     }
+    #seat-plan ul li{
+        height: 30px;
+        width: 30px;
+
+    }
+    
     #seat-plan ul li a{
         width: 50px;
         border-radius: 50%;
@@ -149,3 +156,34 @@ margin-right: 300px;}
     }
     
     
+#feature{
+    width: 1200px;
+    min-height: 500px;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apply{ width: 45px; height: 30px;
+background-color: #03ee36;
+color: white;
+margin-left: 0px;
+font-weight: bold;
+border-radius: 0 10px 10px 0;}
+
+#form{
+    width: 400px;
+    height: 40px;
+    border: 1px solid green;
+    margin: 20px;
+}
+.next{width: 200px;
+height:50px;
+align-items: center;
+color: white;
+font-weight: bold;
+margin-left: 100px;
+text-align: center;
+border-radius: 15px;
+background-color: #03ee36;}
